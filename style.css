@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+}
+
+nav {
+    padding: 10px 100px 10px 100px;
+    background-color: #1c1c1c;
+}
+
+.logo {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.logo p {
+    display: inline-block;
+}
+
+.logo img {
+    display: inline-block;
+    width: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.hero {
+    background-image: url(src/img/fondo_hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contenedorP_hero {
+    background-color: #6d6112;
+    color: #ffffff;
+    display: block;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 30px;
+    width: 50%;
+}
+
+.contenedoresS_hero {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.contenedors_hero {
+    display: inline-block;
+    color: #ffffff;
+    box-sizing: border-box;
+    background-color: #6d6112;
+    width: 31.9%;
+    padding: 12px;
+    height: 90px;
+}
+
+.contenedors_hero h2 {
+    display: inline-block;
+}
+
+.contenedors_hero img {
+    display: inline-block;
+    width: 30px;
+    height: auto;
+}
+
+.section_overworld {
+    background-color: #6d6112;
+    padding: 50px;
+}
+
+.titulo_overwolrd h2,
+p {
+    color: #ffffff
+}
+
+.p_informacion img {
+    width: 35%;
+    height: auto;
+}
