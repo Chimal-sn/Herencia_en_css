@@ -14,7 +14,7 @@ body {
 }
 
 nav {
-    padding: 10px 100px 10px 100px;
+    padding: 10px 50px 10px 50px;
     background-color: #1c1c1c;
 }
 
@@ -45,13 +45,16 @@ a {
 
 /*Contenedor Hero*/
 h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     color: #ffffff;
     font-family: 'Minecrafter', sans-serif;
     font-weight: lighter;
 }
 
 .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-image: url(src/img/fondo_hero.jpg);
     background-size: cover;
     background-position: center;
@@ -62,70 +65,36 @@ h1 {
 }
 
 .contenedorP_hero {
-    background-color: #6d6112;
-    color: #ffffff;
-    display: block;
-    box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    margin-top: 30px;
-    width: 50%;
-}
-
-.contenedoresS_hero {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-}
-
-.contenedors_hero {
-    display: inline-block;
     color: #ffffff;
     box-sizing: border-box;
-    background-color: #6d6112;
-    width: 31.9%;
-    padding: 12px;
-    height: 90px;
 }
 
-.contenedors_hero h2 {
-    display: inline-block;
-}
-
-.contenedors_hero img {
-    display: inline-block;
-    width: 30px;
-    height: auto;
-}
 
 /*Seccion de overworld*/
 .section_overworld {
-    background-color: #6d6112;
+    background-color: #7BB14A;
+    display: flex;
     padding: 50px;
 }
 
-.titulo_overwolrd {
-    margin-bottom: 30px;
+.titulo_overworld {
+    display: flex;
+    width: 50%;
+    gap: 0;
 }
 
-.titulo_overwolrd h2 {
-    font-family: 'Minecrafter', sans-serif;
-    font-weight: lighter;
-    font-size: 2.5rem;
-}
-
-.titulo_overwolrd h2,
-p {
-    color: #ffffff
-}
-
-.contenedor_informacion {
-    margin-top: 30px;
-}
-
-.p_informacion img {
+.titulo_overworld img {
     width: 40%;
-    height: auto;
+}
+
+.titulo_overworld h2 {
+    font-family: 'Minecrafter', sans-serif;
+    font-size: 4rem;
+    color: #ffffff;
+}
+
+.titulo_overworld p {
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: right;
 }
