@@ -74,22 +74,22 @@ h1 {
 .section_overworld {
     background-color: #7BB14A;
     display: flex;
-    padding: 50px;
+    padding: 40px;
 }
 
 .titulo_overworld {
     display: flex;
-    width: 50%;
-    gap: 0;
+    width: 45%;
 }
 
 .titulo_overworld img {
-    width: 40%;
+    width: 50%;
 }
 
 .titulo_overworld h2 {
     font-family: 'Minecrafter', sans-serif;
-    font-size: 4rem;
+    font-weight: lighter;
+    font-size: 3rem;
     color: #ffffff;
 }
 
@@ -97,4 +97,66 @@ h1 {
     font-size: 1.5rem;
     color: #ffffff;
     text-align: right;
+}
+
+.informacion_overworld {
+    display: flex;
+    flex-wrap: wrap;
+    width: 55%;
+    padding: 20px;
+    gap: 30px;
+}
+
+.contenedor_info {
+    background-color: #6B5039;
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 30px);
+}
+
+.img_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50%;
+}
+
+.img_info h3 {
+    font-family: 'Minecrafter', sans-serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.info_overworld {
+    padding: 10px;
+}
+
+.info_overworld p {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.info_overworld hr {
+    border: 1px solid #7BB14A;
+}
+
+.ciclo {
+    background-image: url(src/img/fondo_ciclo.png);
+}
+
+.clima {
+    background-image: url(src/img/fondo_clima.png);
+}
+
+.vegetacion {
+    background-image: url(src/img/fondo_vegetacion.png);
+}
+
+.flora {
+    background-image: url(src/img/fondo_flora.png);
 }
